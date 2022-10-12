@@ -15,14 +15,13 @@ public class Main {
 
 
         System.out.println("| Name " + " |" + " Phonenumber |");
-        System.out.println("--------|--------");
+        System.out.println("--------|--------|");
 
 
         for (String name : phoneNumber.keySet()) {
-            System.out.print(name);
-            System.out.println(phoneNumber.get(name));
+            System.out.println("| " + name + " | Hidden |");
         }
-
+        System.out.println();
         System.out.println("Enter the name you want number from: (Greta, Karin, Kevin)");
 
         String searchName = input.nextLine();
